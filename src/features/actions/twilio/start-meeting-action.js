@@ -9,7 +9,7 @@ export const startMeeting = meeting => {
   return dispatch => {
     dispatch(meetingLoading(true));
     axios
-      .post('http://acta-voice.dns-cloud.net/call/connect', {
+      .post('https://acta-voice.dns-cloud.net/call/connect', {
         number: '919441076540'
       })
       .then(function(response) {
