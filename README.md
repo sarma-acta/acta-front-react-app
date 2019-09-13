@@ -1,72 +1,68 @@
-Welcome to the AWS CodeStar sample static HTML website
-==================================================
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This sample code helps get you started with a simple static HTML website
-deployed by AWS CodeDeploy and AWS CloudFormation to an Amazon EC2 instance.
+## Available Scripts
 
-What's Here
------------
+In the project directory, you can run:
 
-This sample includes:
+### `npm start`
 
-* README.md - this file
-* appspec.yml - this file is used by AWS CodeDeploy when deploying the website
-  to EC2
-* scripts/ - this directory contains scripts used by AWS CodeDeploy when
-  installing and deploying your website on the Amazon EC2 instance
-* webpage/ - this directory contains static web assets used by your website
-  * index.html - this file contains the sample website
-* template.yml - this file contains the description of AWS resources used by AWS
-  CloudFormation to deploy your infrastructure
-* template-configuration.json - this file contains the project ARN with placeholders used for tagging resources with the project ID
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Getting Started
----------------
+The page will reload if you make edits.<br>
+You will also see any lint errors in the console.
 
-These directions assume you want to develop on your local computer, and not
-from the Amazon EC2 instance itself.
+### `npm test`
 
-To work on the sample code, you'll need to clone your project's repository to your
-local computer. If you haven't, do that first. You can find instructions in the
-AWS CodeStar user guide.
+Launches the test runner in the interactive watch mode.<br>
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-1. Open `index.html` from your cloned repository in a web browser to view your website.
-   You can also view your website on the AWS CodeStar project dashboard under Application
-   endpoints.
+### `npm run build`
 
-What Do I Do Next?
-------------------
+Builds the app for production to the `build` folder.<br>
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-You can start making changes to the sample static HTML website. We suggest making a
-small change to /webpage/index.html first, so you can see how changes pushed to your
-project's repository are automatically picked up by your project pipeline and deployed
-to the Amazon EC2 instance. (You can watch the progress on your project dashboard.)
-Once you've seen how that works, start developing your own code, and have fun!
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
 
-Learn more about AWS CodeStar by reading the user guide.  Ask questions or make
-suggestions on our forum.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-User Guide: http://docs.aws.amazon.com/codestar/latest/userguide/welcome.html
+### `npm run eject`
 
-Forum: https://forums.aws.amazon.com/forum.jspa?forumID=248
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-How Do I Add Template Resources to My Project?
-------------------
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-To add AWS resources to your project, you'll need to edit the `template.yml`
-file in your project's repository. You may also need to modify permissions for
-your project's worker roles. After you push the template change, AWS CodeStar
-and AWS CloudFormation provision the resources for you.
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-See the AWS CodeStar user guide for instructions to modify your template:
-https://docs.aws.amazon.com/codestar/latest/userguide/how-to-change-project.html#customize-project-template
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-What Should I Do Before Running My Project in Production?
-------------------
+## Learn More
 
-AWS recommends you review the security best practices recommended by the framework
-author of your selected sample application before running it in production. You
-should also regularly review and apply any available patches or associated security
-advisories for dependencies used within your application.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Best Practices: https://docs.aws.amazon.com/codestar/latest/userguide/best-practices.html?icmpid=docs_acs_rm_sec
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

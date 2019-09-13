@@ -1,0 +1,27 @@
+.balanceBox {
+  background-color: #0071bc;
+  padding: 10px;
+  color: #ffffff;
+  margin: 20px;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.card {
+  width: 300px;
+  margin: 10px;
+}
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.paper {
+  width: 500;
+  background-color: #0071bc;
+  border: 2px solid #000;
+}
